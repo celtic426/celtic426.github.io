@@ -1,4 +1,4 @@
-/*!   
+/*!
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 2.0
  * Author: Xiaoying Riley
@@ -665,4 +665,9 @@ a.dotted-link:hover {
     width: 1360px;
     max-width: inherit;
   }
+}
+
+/* TPR - Adjust vertical alignment of billtracker project image */
+img.billtracker-image {
+  margin-top: 20px;
 }
