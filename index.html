@@ -1,311 +1,503 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Tim Rybicki | Software Engineer</title>
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Full stack web developer based in Boston MA.">
-    <link rel="shortcut icon" href="favicon.png">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Full stack web developer based in Boston MA." />
+    <link rel="shortcut icon" href="favicon.png" />
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+      integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
 
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!-- ******HEADER****** -->
     <header class="header">
-        <div class="container clearfix">
-            <img class="profile-image img-fluid float-left" src="assets/images/profile.png" alt="headshot" />
-            <div class="profile-content float-left">
-                <h1 class="name">Tim Rybicki</h1>
-                <h2 class="desc">Software Engineer</h2>
-                <ul class="social list-inline">
-                    <li class="list-inline-item">Boston, MA</li>
-                </ul>
-            </div><!--//profile-->
-            <a class="btn btn-cta-primary float-right" href="https://drive.google.com/file/d/1WWG6MKAoFFWRgLCcRQuT20TyqMlLZL96/preview" target="_blank"><i class="fas fa-paper-plane"></i>View Resume</a>
+      <div class="container clearfix">
+        <img
+          class="profile-image img-fluid float-left"
+          src="assets/images/profile.png"
+          alt="headshot"
+        />
+        <div class="profile-content float-left">
+          <h1 class="name">Tim Rybicki</h1>
+          <h2 class="desc">Software Engineer</h2>
+          <ul class="social list-inline">
+            <li class="list-inline-item">Boston, MA</li>
+          </ul>
+        </div>
+        <a
+          class="btn btn-cta-primary float-right"
+          href="https://drive.google.com/file/d/1WWG6MKAoFFWRgLCcRQuT20TyqMlLZL96/preview"
+          target="_blank"
+          ><i class="fas fa-paper-plane"></i>View Resume</a
+        >
+      </div>
+    </header>
 
-        </div><!--//container-->
-    </header><!--//header-->
-
+    <!-- ABOUT ME DESCRIPTION -->
     <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-lg-8 col-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
+      <div class="row">
+        <div class="primary col-lg-8 col-12">
+          <section class="about section">
+            <div class="section-inner">
+              <h2 class="heading">About Me</h2>
+              <div class="content">
+                <p>
+                  I love finding fast and simple ways of doing things.
+                  <br />
+                  <br />
+                  Currently I work at a web consulting company and day to day I focus on Javascript
+                  and React/Redux.
+                  <br />
+                  <br />
+                  On the side I love piano, guitar, running, and building computers.
+                </p>
+              </div>
+            </div>
+          </section>
 
-                            <p>
-                                I love finding fast and simple ways of doing things.
-                                <br>
-                                <br>
-                                Currently I work at a web consulting company and day to day I focus on Javascript and React/Redux.
-                                <br>
-                                <br>
-                                On the side I love piano, guitar, running, and building computers.
-                            </p>
+          <!-- PROJECTS SECTION -->
+          <section class="latest section">
+            <div class="section-inner">
+              <h2 class="heading">Latest Projects</h2>
+              <div class="content">
+                <!-- Issue Collab -->
+                <div class="item featured text-center">
+                  <h3 class="title">Issue Collab</h3>
+                  <p class="summary">A search tool for GitHub issues</p>
+                  <div class="featured-image has-ribbon">
+                    <a href="https://issue-collab.netlify.com/" target="_blank">
+                      <img
+                        class="img-fluid project-image"
+                        src="assets/images/projects/issue-collab.gif"
+                        alt="issue collab gif"
+                      />
+                    </a>
+                  </div>
+                  <div class="desc text-left">
+                    <p>
+                      Find open source projects on GitHub by searching with labels, languages, or
+                      search terms. Created with React.
+                    </p>
+                  </div>
+                  <a
+                    class="btn btn-cta-secondary"
+                    href="https://issue-collab.netlify.com/"
+                    target="_blank"
+                    >Live Site</a
+                  >
+                  <a
+                    class="btn btn-cta-secondary"
+                    href="https://github.com/trybick/issue-collab"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                <hr class="divider" />
 
-               <section class="latest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Projects</h2>
-                        <div class="content">
+                <!-- Sick Picks -->
+                <div class="item featured text-center">
+                  <h3 class="title">Sick Picks</h3>
+                  <p class="summary">
+                    Browse a collection of "sick picks" from the podcast Syntax FM
+                  </p>
+                  <div class="featured-image has-ribbon">
+                    <a href="https://sickpicks.netlify.com/" target="_blank">
+                      <img
+                        class="img-fluid project-image"
+                        src="assets/images/projects/sickpicks.png"
+                        alt="sick picks"
+                      />
+                    </a>
+                  </div>
+                  <div class="desc text-left">
+                    <p>
+                      "Sick picks" are suggestions from the hosts of the podcast Syntax FM. The data
+                      is scraped with a Puppeteer script I wrote, which is then displayed in a React
+                      application.
+                    </p>
+                  </div>
+                  <a
+                    class="btn btn-cta-secondary"
+                    href="https://sickpicks.netlify.com/"
+                    target="_blank"
+                    >Live Site</a
+                  >
+                  <a
+                    class="btn btn-cta-secondary"
+                    href="https://github.com/trybick/sick-picks-client"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </div>
 
-                            <!-- Issue Collab -->
-                            <div class="item featured text-center">
-                                    <h3 class="title">Issue Collab</h3>
-                                    <p class="summary">A search tool for GitHub issues</p>
-                                    <div class="featured-image has-ribbon">
-                                        <a href="https://issue-collab.netlify.com/" target="_blank">
-                                        <img class="img-fluid project-image" src="assets/images/projects/issue-collab.gif" alt="issue collab gif" />
-                                        </a>
-                                        <!-- <div class="ribbon">
-                                            <div class="text">New</div>
-                                        </div> -->
-                                    </div>
-                                    <div class="desc text-left">
-                                        <p>Find open source projects on GitHub by searching with labels, languages, or search terms. Created with React.</p>
-                                    </div>
-                                    <a class="btn btn-cta-secondary" href="https://issue-collab.netlify.com/" target="_blank">Live Site</a>
-                                    <a class="btn btn-cta-secondary" href="https://github.com/trybick/issue-collab" target="_blank">GitHub</a>
-                                </div>
+                <hr class="divider" />
 
-                        <hr class="divider" />
+                <!-- My blog -->
+                <div class="item row">
+                  <div class="col-md-4 col-12">
+                    <img
+                      class="img-fluid project-image"
+                      src="assets/images/projects/blog.png"
+                      alt="My blog"
+                    />
+                  </div>
+                  <div class="desc col-md-8 col-12">
+                    <h3 class="title">WD News + Tips</h3>
+                    <p class="mb-2">
+                      My tech blog created with Jekyll where I post on topics such as bash aliases
+                      and Git tips.
+                    </p>
+                    <a class="more-link" href="https://timrybicki.com/blog" target="_blank"
+                      ><i class="fas fa-external-link-alt"></i>View Blog &nbsp;</a
+                    >
+                  </div>
+                </div>
 
-                        <!-- Sick Picks -->
-                        <div class="item featured text-center">
-                                <h3 class="title">Sick Picks</h3>
-                                <p class="summary">Browse a collection of "sick picks" from the podcast Syntax FM</p>
-                                <div class="featured-image has-ribbon">
-                                    <a href="https://sickpicks.netlify.com/" target="_blank">
-                                    <img class="img-fluid project-image" src="assets/images/projects/sickpicks.png" alt="sick picks" />
-                                    </a>
-                                    <!-- <div class="ribbon">
-                                        <div class="text">New</div>
-                                    </div> -->
-                                </div>
-                                <div class="desc text-left">
-                                    <p>"Sick picks" are suggestions from the hosts of the podcast Syntax FM. The data is scraped with a Puppeteer script I wrote, which is then displayed in a React application.</p>
-                                </div>
-                                <a class="btn btn-cta-secondary" href="https://sickpicks.netlify.com/" target="_blank">Live Site</a>
-                                <a class="btn btn-cta-secondary" href="https://github.com/trybick/sick-picks-client" target="_blank">GitHub</a>
-                            </div>
+                <!-- BillTracker -->
+                <div class="item row">
+                  <div class="col-md-4 col-12">
+                    <img
+                      class="img-fluid project-image billtracker-image"
+                      src="assets/images/projects/billtracker.png"
+                      alt="Billtracker project"
+                    />
+                  </div>
+                  <div class="desc col-md-8 col-12">
+                    <h3 class="title">Billtracker</h3>
+                    <p class="mb-2">
+                      Full-stack expense tracker built with React and Express.js. Add monthly bills,
+                      mark as paid, and track the remaning balance.
+                    </p>
+                    <a
+                      class="more-link"
+                      href="https://optimal-salamanders.github.io/bag-of-holding-frontend/"
+                      target="_blank"
+                      ><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a
+                    >
+                    <a
+                      class="more-link"
+                      href="https://github.com/Optimal-Salamanders/bag-of-holding-frontend"
+                      target="_blank"
+                      ><i class="fab fa-github"></i>Client Repo &nbsp;</a
+                    >
+                    <a
+                      class="more-link"
+                      href="https://github.com/Optimal-Salamanders/bag-of-holding-backend"
+                      target="_blank"
+                      ><i class="fab fa-github"></i>Backend Repo</a
+                    >
+                  </div>
+                </div>
 
+                <div class="item row">
+                  <div class="col-md-4 col-12">
+                    <img
+                      class="img-fluid project-image"
+                      src="assets/images/projects/bag-of-holding.png"
+                      alt="Bag of Holding project"
+                    />
+                  </div>
+                  <div class="desc col-md-8 col-12">
+                    <h3 class="title">Bag of Holding</h3>
+                    <p class="mb-2">
+                      File Bucket site using Amazon S3 to store files with Express.js as an API.
+                      Store and tag your files, and browse other user's uploads.
+                    </p>
+                    <a
+                      class="more-link"
+                      href="https://optimal-salamanders.github.io/bag-of-holding-frontend/"
+                      target="_blank"
+                      ><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a
+                    >
+                    <a
+                      class="more-link"
+                      href="https://github.com/Optimal-Salamanders/bag-of-holding-frontend"
+                      target="_blank"
+                      ><i class="fab fa-github"></i>Client Repo &nbsp;</a
+                    >
+                    <a
+                      class="more-link"
+                      href="https://github.com/Optimal-Salamanders/bag-of-holding-backend"
+                      target="_blank"
+                      ><i class="fab fa-github"></i>Backend Repo</a
+                    >
+                  </div>
+                </div>
 
+                <div class="item row">
+                  <div class="col-md-4 col-12">
+                    <img
+                      class="img-fluid project-image"
+                      src="assets/images/projects/mysongs.png"
+                      alt="mySongs project"
+                    />
+                  </div>
+                  <div class="desc col-md-8 col-12">
+                    <h3 class="title">mySongs</h3>
+                    <p class="mb-2">
+                      A full-stack CRUD application which allows you to create a collection of your
+                      favorite songs to share with others. Handlebars template engine shows your
+                      most recently updated songs first.
+                    </p>
+                    <a
+                      class="more-link"
+                      href="https://trybick.github.io/MuseScore-client/"
+                      target="_blank"
+                      ><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a
+                    >
+                    <a
+                      class="more-link"
+                      href="https://github.com/trybick/MuseScore-client"
+                      target="_blank"
+                      ><i class="fab fa-github"></i>Client Repo &nbsp;</a
+                    >
+                    <a
+                      class="more-link"
+                      href="https://github.com/trybick/MuseScore-api"
+                      target="_blank"
+                      ><i class="fab fa-github"></i>Backend Repo</a
+                    >
+                  </div>
+                </div>
 
-                            <hr class="divider" />
+                <div class="item row">
+                  <div class="col-md-4 col-12">
+                    <img
+                      class="img-fluid project-image"
+                      src="assets/images/projects/tic-tac-toe.png"
+                      alt="Tic Tac Toe project"
+                    />
+                  </div>
+                  <div class="desc col-md-8 col-12">
+                    <h3 class="title">Tic Tac Toe</h3>
+                    <p class="mb-2">
+                      A Javascript game which was one of my first projects and it utilizes an API
+                      for authentication and game tracking. Creating the game logic was my favorite
+                      part.
+                    </p>
+                    <a
+                      class="more-link"
+                      href="https://trybick.github.io/tic-tac-toe-client/"
+                      target="_blank"
+                      ><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a
+                    >
+                    <a
+                      class="more-link"
+                      href="https://github.com/trybick/tic-tac-toe-client"
+                      target="_blank"
+                      ><i class="fab fa-github"></i>GitHub Repo</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
 
-                            <!-- My blog -->
-                            <div class="item row">
-                                <div class="col-md-4 col-12">
-                                <img class="img-fluid project-image" src="assets/images/projects/blog.png" alt="My blog" />
-                              </div>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title">WD News + Tips</h3>
-                                    <p class="mb-2">My blog created with Jekyll where I post on topics such as bash aliases and Git tips.</p>
-                                    <a class="more-link" href="https://timrybicki.com/blog" target="_blank"><i class="fas fa-external-link-alt"></i>View Blog &nbsp;</a>
-                                </div>
-                            </div>
+        <!-- MY CONTACT INFO SECTION -->
+        <div class="secondary col-lg-4 col-12">
+          <aside class="info aside section">
+            <div class="section-inner">
+              <h2 class="heading sr-only">Basic Information</h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <h2 class="heading">Contact</h2>
+                  <li>
+                    <i class="fas fa-envelope"></i><span class="sr-only">Email:</span
+                    ><a href="mailto:rybickitim@gmail.com">rybickitim@gmail.com</a>
+                  </li>
+                  <li>
+                    <i class="fab fa-linkedin"></i><span class="sr-only">Linkedin:</span
+                    ><a href="https://www.linkedin.com/in/tim-rybicki/" target="”_blank”"
+                      >linkedin.com/in/tim-rybicki</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fab fa-github"></i><span class="sr-only">Github:</span
+                    ><a href="https://github.com/trybick" target="”_blank”">github.com/trybick</a>
+                  </li>
+                  <li>
+                    <i class="fab fa-blogger"></i
+                    ><a href="https://timrybicki.com/blog" target="”_blank”">timrybicki.com/blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
 
-                            <!-- BillTracker -->
-                            <div class="item row">
-                                <div class="col-md-4 col-12">
-                                <img class="img-fluid project-image billtracker-image" src="assets/images/projects/billtracker.png" alt="Billtracker project" />
-                              </div>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title">Billtracker</h3>
-                                    <p class="mb-2">Full-stack expense tracker built with React and Express.js. Add monthly bills, mark as paid, and track the remaning balance.</p>
-                                    <a class="more-link" href="https://optimal-salamanders.github.io/bag-of-holding-frontend/" target="_blank"><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a>
-                                    <a class="more-link" href="https://github.com/Optimal-Salamanders/bag-of-holding-frontend" target="_blank"><i class="fab fa-github"></i>Client Repo &nbsp;</a>
-                                    <a class="more-link" href="https://github.com/Optimal-Salamanders/bag-of-holding-backend" target="_blank"><i class="fab fa-github"></i>Backend Repo</a>
-                                </div>
-                            </div>
+          <!-- SKILLS SECTION -->
+          <aside class="skills aside section">
+            <div class="section-inner">
+              <h2 class="heading">Main Technologies</h2>
+              <div class="content">
+                <div class="skillset">
+                  <div class="item">
+                    <h3 class="level-title">• JavaScript</h3>
+                  </div>
 
-                            <div class="item row">
-                                <div class="col-md-4 col-12">
-                                <img class="img-fluid project-image" src="assets/images/projects/bag-of-holding.png" alt="Bag of Holding project" />
-                              </div>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title">Bag of Holding</h3>
-                                    <p class="mb-2">File Bucket site using Amazon S3 to store files with Express.js as an API. Store and tag your files, and browse other user's uploads.</p>
-                                    <a class="more-link" href="https://optimal-salamanders.github.io/bag-of-holding-frontend/" target="_blank"><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a>
-                                    <a class="more-link" href="https://github.com/Optimal-Salamanders/bag-of-holding-frontend" target="_blank"><i class="fab fa-github"></i>Client Repo &nbsp;</a>
-                                    <a class="more-link" href="https://github.com/Optimal-Salamanders/bag-of-holding-backend" target="_blank"><i class="fab fa-github"></i>Backend Repo</a>
-                                </div>
-                            </div>
+                  <div class="item">
+                    <h3 class="level-title">• React + Redux</h3>
+                  </div>
 
-                            <div class="item row">
-                                <div class="col-md-4 col-12">
-                                <img class="img-fluid project-image" src="assets/images/projects/mysongs.png" alt="mySongs project" />
-                              </div>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title">mySongs</h3>
-                                    <p class="mb-2">A full-stack CRUD application which allows you to create a collection of your favorite songs to share with others. Handlebars template engine shows your most recently updated songs first.</p>
-                                    <a class="more-link" href="https://trybick.github.io/MuseScore-client/" target="_blank"><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a>
-                                    <a class="more-link" href="https://github.com/trybick/MuseScore-client" target="_blank"><i class="fab fa-github"></i>Client Repo &nbsp;</a>
-                                    <a class="more-link" href="https://github.com/trybick/MuseScore-api" target="_blank"><i class="fab fa-github"></i>Backend Repo</a>
-                                </div><!--//desc-->
-                            </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">• TypeScript + Flow</h3>
+                  </div>
 
-                            <div class="item row">
-                                <div class="col-md-4 col-12">
-                                <img class="img-fluid project-image" src="assets/images/projects/tic-tac-toe.png" alt="Tic Tac Toe project" />
-                              </div>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title">Tic Tac Toe</h3>
-                                    <p class="mb-2">A Javascript game which was one of my first projects and it utilizes an API for authentication and game tracking. Creating the game logic was my favorite part.</p>
-                                    <a class="more-link" href="https://trybick.github.io/tic-tac-toe-client/" target="_blank"><i class="fas fa-external-link-alt"></i>Live site &nbsp;</a>
-                                    <a class="more-link" href="https://github.com/trybick/tic-tac-toe-client" target="_blank"><i class="fab fa-github"></i>GitHub Repo</a>
-                                </div><!--//desc-->
-                            </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">• Node.js</h3>
+                  </div>
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </section><!--//section-->
+                  <div class="item">
+                    <h3 class="level-title">• Puppeteer</h3>
+                  </div>
 
-            </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <!-- <li><i class=""></i>Contact:</li> -->
-                                <h2 class="heading">Contact</h2>
-                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="mailto:rybickitim@gmail.com">rybickitim@gmail.com</a></li>
-                                <li><i class="fab fa-linkedin"></i><span class="sr-only">Linkedin:</span><a href="https://www.linkedin.com/in/tim-rybicki/" target=”_blank”>linkedin.com/in/tim-rybicki</a></li>
-                                <li><i class="fab fa-github"></i><span class="sr-only">Github:</span><a href="https://github.com/trybick" target=”_blank”>github.com/trybick</a></li>
-                                <li><i class="fab fa-blogger"></i><a href="https://timrybicki.com/blog" target=”_blank”>timrybicki.com/blog</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//aside-->
+                  <div class="item">
+                    <h3 class="level-title">• SQL</h3>
+                  </div>
 
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Main Technologies</h2>
-                        <div class="content">
-                            <div class="skillset">
+                  <div class="item">
+                    <h3 class="level-title">• Amazon AWS</h3>
+                  </div>
 
-                                <div class="item">
-                                    <h3 class="level-title">• JavaScript</h3>
-                                </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">• Docker</h3>
+                  </div>
 
-                                <div class="item">
-                                    <h3 class="level-title">• React + Redux</h3>
-                                </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">• Bash scripting</h3>
+                  </div>
 
-                                <div class="item">
-                                    <h3 class="level-title">• TypeScript + Flow</h3>
-                                </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">• Emotion.js</h3>
+                  </div>
 
-                                <div class="item">
-                                    <h3 class="level-title">• Node.js</h3>
-                                </div><!--//item-->
+                  <div class="item">
+                    <h3 class="level-title">• HTML, CSS, Sass</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
 
-                                <div class="item">
-                                    <h3 class="level-title">• Puppeteer</h3>
-                                </div><!--//item-->
+          <!-- ASIDE: Side Projects -->
+          <aside class="education aside section">
+            <div class="section-inner">
+              <h2 class="heading">Side Projects</h2>
+              <div class="content">
+                <div class="item">
+                  •
+                  <a href="https://www.youtube.com/celtic426" target="_blank">My YouTube channel</a>
+                  - I have been posting piano videos for over 10 years<br />
 
-                                <div class="item">
-                                    <h3 class="level-title">• SQL</h3>
-                                </div><!--//item-->
+                  <h3 class="title"></h3>
 
-                                <div class="item">
-                                    <h3 class="level-title">• Amazon AWS</h3>
-                                </div><!--//item-->
+                  • <a href="https://timrybicki.com/blog/">WD News + Tips</a> - My blog focusing on
+                  improving developer workflow
 
-                                <div class="item">
-                                    <h3 class="level-title">• Docker</h3>
-                                </div><!--//item-->
+                  <h3 class="title"></h3>
 
-                                <div class="item">
-                                    <h3 class="level-title">• Bash scripting</h3>
-                                </div><!--//item-->
+                  •
+                  <a href="https://hacktoberfest.digitalocean.com/" target="_blank"
+                    >Hacktoberfest</a
+                  >
+                  Look out for Hacktoberfest every October. It's a fun way to get a free t-shirt and
+                  discover cool projects!
+                </div>
+                <div class="item">
+                  <h3 class="title"></h3>
+                  <h4 class="university"></h4>
+                </div>
+              </div>
+            </div>
+          </aside>
 
-                                <div class="item">
-                                    <h3 class="level-title">• Emotion.js</h3>
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">• HTML, CSS, Sass</h3>
-                                </div><!--//item-->
-
-                            </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Side Projects</h2>
-                        <div class="content">
-                            <div class="item">
-                              • <a href="https://www.youtube.com/celtic426" target="_blank">My YouTube channel</a> - I have been posting piano videos for over 10 years<br>
-
-                                <h3 class="title"></h3>
-
-                              • <a href="https://timrybicki.com/blog/">WD News + Tips</a> - My blog focusing on improving developer workflow
-
-                                <h3 class="title"></h3>
-
-                              • <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Hacktoberfest</a> Look out for Hacktoberfest every October. It's a fun way to get a free t-shirt and discover cool projects!
-
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"></h3>
-                                <h4 class="university"></h4>
-                            </div><!--//item-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favorite Coding Music</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=QpDn4-Na5co" target="_blank">Lazerhawk - Redline</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=OIM8RxaK5rE" target="_blank">Daft Punk - TRON:Legacy</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/watch?v=oKD-MVfC9Ag" target="_blank">Hotline Miami Soundtrack</a></li>
-                                <li><i class="fas fa-headphones"></i> <a href="https://www.youtube.com/playlist?list=PL_5jCOVa9Le4lfaiGXkRZO9tnAJaDllhy" target="_blank">Mr. Robot Soundtrack</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-            </div><!--//secondary-->
-        </div><!--//row-->
-    </div><!--//masonry-->
+          <!-- ASIDE: Favorite music -->
+          <aside class="list music aside section">
+            <div class="section-inner">
+              <h2 class="heading">Favorite Coding Music</h2>
+              <div class="content">
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fas fa-headphones"></i>
+                    <a href="https://www.youtube.com/watch?v=QpDn4-Na5co" target="_blank"
+                      >Lazerhawk - Redline</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-headphones"></i>
+                    <a href="https://www.youtube.com/watch?v=OIM8RxaK5rE" target="_blank"
+                      >Daft Punk - TRON:Legacy</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-headphones"></i>
+                    <a href="https://www.youtube.com/watch?v=oKD-MVfC9Ag" target="_blank"
+                      >Hotline Miami Soundtrack</a
+                    >
+                  </li>
+                  <li>
+                    <i class="fas fa-headphones"></i>
+                    <a
+                      href="https://www.youtube.com/playlist?list=PL_5jCOVa9Le4lfaiGXkRZO9tnAJaDllhy"
+                      target="_blank"
+                      >Mr. Robot Soundtrack</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
 
     <!-- ******FOOTER****** -->
     <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
+      <div class="container text-center">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright"
+          >Designed with <i class="fas fa-heart"></i> by
+          <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a>
+          for developers</small
+        >
+      </div>
+    </footer>
 
     <!-- Javascript -->
-    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+    <!-- <script
+      type="text/javascript"
+      src="assets/plugins/jquery-3.3.1.min.js"
+    ></script> -->
+    <!-- <script type="text/javascript" src="assets/plugins/popper.min.js"></script> -->
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-    <!-- <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> -->
-</body>
+  </body>
 </html>
