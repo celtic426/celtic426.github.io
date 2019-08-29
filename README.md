@@ -1,2 +1,2 @@
 ## Personal Portfolio Site
-Please feel free to view my portfolio at [timrybicki.com](https://timrybicki.com/)
+Tim Rybicki's portfolio website: [timrybicki.com](https://timrybicki.com/)
