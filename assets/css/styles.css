@@ -680,4 +680,5 @@ img.billtracker-image {
 /* Project language sub heading */
 .project-language {
   font-size: 14px;
+  font-weight: 500;
 }
